@@ -21,5 +21,9 @@
     "dotenv": "^6.0.0",
     "knex": "^0.15.2",
     "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0"
   }
 }

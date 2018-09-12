@@ -19,6 +19,11 @@ npm i --save knex
 npm i --save pg
 npm i --save @feathers/feathers
 npm i --save dotenv
+npm install eslint --save-dev
+npm install --save-dev babel-eslint@latest
+-- babel-eslint suggestion from Dan Abramov. Makes sense that even 
+-- though Node can handle ES6, that eslint may not and needs a little help
+-- with the ES6 and beyond.
 
 knex migrations in root folder.
 Shifting to sub folder of your choice requires change to knexfile.js
