@@ -1,5 +1,5 @@
 {
-  "name": "Application_Server",
+  "name": "application_server",
   "version": "1.0.0",
   "description": "Boilerpate init for DB backed REST server.",
   "main": "index.js",
