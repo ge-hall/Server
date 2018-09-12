@@ -1,0 +1,25 @@
+{
+  "name": "Application_Server",
+  "version": "1.0.0",
+  "description": "Boilerpate init for DB backed REST server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http:https://github.com/ge-hall/Server.git"
+  },
+  "keywords": [
+    "feather",
+    "knex"
+  ],
+  "author": "Andrew Ge-Hall",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/feathers": "^3.2.1",
+    "dotenv": "^6.0.0",
+    "knex": "^0.15.2",
+    "pg": "^7.4.3"
+  }
+}
