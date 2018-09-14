@@ -1,5 +1,6 @@
-require("dotenv").config();
-const { Messages } = require('./services/Messages');
+import 'dotenv/config';
+//const { Messages } = require('./services/Messages');
+import  Messages  from './services/Messages';
 const feathers = require("@feathersjs/feathers");
 const app = feathers();
 var knex = require("knex")({

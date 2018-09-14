@@ -1,4 +1,4 @@
-class Messages {
+export default class Messages {
     constructor() {
         this.messages = [];
         this.currentId = 0;
@@ -62,5 +62,5 @@ class Messages {
     }
 }
 
-module.exports.Messages = Messages;
+//module.exports.Messages = Messages;
 

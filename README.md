@@ -37,6 +37,12 @@ create database api
     -- babel-eslint suggestion from Dan Abramov. Makes sense that even 
     -- though Node can handle ES6, that eslint may not and needs a little help
     -- with the ES6 and beyond.
+    npm install nodemon --save-dev
+
+    npm install babel-cli --save-dev
+    npm install babel-preset-env babel-preset-stage-4npm install babel-preset-env babel-preset-stage-2 --save-dev --save-dev
+
+babel added and config to enable export default / import
 
 knex migrations in root folder.
 Shifting to sub folder of your choice requires change to knexfile.js

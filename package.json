@@ -4,11 +4,12 @@
   "description": "Boilerpate init for DB backed REST server.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "http:https://github.com/ge-hall/Server.git"
+    "url": "http:https://github.com/ge-hall/api-rest-server.git"
   },
   "keywords": [
     "feather",
@@ -23,7 +24,11 @@
     "pg": "^7.4.3"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^9.0.0",
-    "eslint": "^5.5.0"
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.5.0",
+    "nodemon": "^1.18.4"
   }
 }
